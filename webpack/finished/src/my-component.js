@@ -6,6 +6,7 @@ Vue.component('my-component', {
       count: 0
     }
   },
+  props: ['message'],
   methods: {
     increment() {
       this.count++;
@@ -13,7 +14,7 @@ Vue.component('my-component', {
   },
   template: `
     <div style="text-align: center">
-      <h1>I'm a component!</h1>
+      <h1> {{ message }}</h1>
       <button @click="increment">click me!</button>
       <h2>count: {{ count }}</h2>
     </div>`
