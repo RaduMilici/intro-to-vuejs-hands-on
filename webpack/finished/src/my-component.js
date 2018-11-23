@@ -18,7 +18,3 @@ Vue.component('my-component', {
       <h2>count: {{ count }}</h2>
     </div>`
 });
-
-new Vue({
-  el: '#app'
-});
