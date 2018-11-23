@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "serve": "serve ./dist",
+    "build": "webpack --mode=production",
     "build-watch": "webpack --mode=development --watch"
   },
   "repository": {
