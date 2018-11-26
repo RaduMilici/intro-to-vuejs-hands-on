@@ -1,4 +1,5 @@
 # finished
+npx @vue/cli create .
 
 ## Project setup
 ```
